@@ -32,6 +32,11 @@ body {
     background: white;
     width: 100%;
     box-shadow: 0px 1px 1px black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
 }
 
 .header nav {
@@ -191,7 +196,7 @@ nav .content .links li {
         position: fixed;
         background: white;
         height: 100%;
-        width: 100%;
+        width: 50%;
         top: 70px;
         left: -100%;
         margin-left: 0;
@@ -731,15 +736,14 @@ iframe {
 
 /* Review Section Start */
 .review{
-    padding: 120px 8% 120px;
-    background: white;
+    padding: 50px 8% 50px;
 }
 .review-content{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
     gap: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
 }
 .box{
     background: #f3f3f3;
